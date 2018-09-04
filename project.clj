@@ -1,6 +1,7 @@
 (defproject doric "0.10.0-SNAPSHOT"
   :description "Clojure table layout"
   :url "https://github.com/joegallo/doric"
+  :dependencies [[hickory "0.7.1"]]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :profiles {:1.2 {:dependencies [[org.clojure/clojure "1.2.1"]]}
