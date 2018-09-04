@@ -1,31 +1,12 @@
 # Doric
 
-Doric is a library for rendering pretty emacs-style tables from
-Clojure data. Data is passed into Doric as nested collections, and
-comes out as a string suitable for printing.
+I didn't do any of this, all credit to
 
-Add this to your project.clj :dependencies list:
+https://github.com/joegallo/doric
 
-```clojure
-[doric "0.9.0"]
-```
+this a quick hack to add hiccup as a table output format
 
-## Usage
-
-In most cases, you'll just want to use/require the table function.
-
-```clojure
-> (use '[doric.core :only [table]])
-nil
-```
-
-But you can access other things if you'd like, for instance if you
-want to use the other formats.
-
-```clojure
-> (use '[doric.core :only [table csv html org raw]])
-nil
-```
+I didn't write any of the below documentation either
 
 Rows are maps, columns are entries in the maps. Column titles are
 driven from the keys, by default, :like-this becomes Like This. Since
